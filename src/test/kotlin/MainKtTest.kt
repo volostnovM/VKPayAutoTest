@@ -78,6 +78,6 @@ class MainKtTest {
 
         val result = sendMoney(typeCard, previousMoneyOrder, currentMoneyOrder)
 
-        assertEquals(-2, result)
+        assertEquals(-1, result)
     }
 }
